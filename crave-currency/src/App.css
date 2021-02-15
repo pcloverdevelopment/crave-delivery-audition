@@ -1,0 +1,75 @@
+/* Some examples of using classes for styling */
+.Crave-app {
+  text-align: center;
+  line-height: 1.09875em;
+}
+
+.Crave-logo {
+  max-width: 221px;
+  width: 100%;
+}
+
+.Crave-link  {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+}
+.Customer-bill-input {
+  margin-top: 48px;
+}
+
+.Customer-payment-input {
+  margin-top: 25px;
+}
+
+.Customer-change {
+  margin: 31px auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  max-width: 500px;
+  padding: 16px;
+}
+
+.Customer-change ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.Customer-change ul li {
+  list-style: none;
+  flex: 0 0 33.333333%;
+  padding: 8px 0;
+}
+
+.Insufficient-payment {
+  margin: 31px auto;
+  padding: 25px 0;
+  width: 500px;
+  background: rgba(255, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.Exact-amount {
+  margin: 31px auto;
+  width: 500px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Some examples of using element selectors & general classes for styling */
+header p {
+  margin-top: 26px;
+}
+
+main Button {
+  margin-top: 15px;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}

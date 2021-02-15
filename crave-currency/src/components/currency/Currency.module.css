@@ -1,0 +1,18 @@
+.Currency {
+  width: 146px;
+  height: 146px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CurrencyAmount {
+ font-size: 70px;
+ line-height: 70px;
+}
+
+.CurrencyValue {
+  font-size: 15px;
+}
